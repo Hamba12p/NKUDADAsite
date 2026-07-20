@@ -26,6 +26,16 @@ body {
   overflow-x: hidden;
 }
 
+body.admin-route nav.site-nav,
+body.admin-route .site-footer,
+body.admin-route .reveal {
+  display: none;
+}
+
+body.admin-route {
+  background: var(--warm);
+}
+
 a { color: inherit; }
 
 /* ── NAV ── */
@@ -810,7 +820,7 @@ section { padding: 96px 5vw; }
 }
 .admin-logout-btn:hover { background: rgba(255,255,255,.1); color: #fff; }
 
-.admin-main { padding: 40px 48px; max-width: 980px; }
+.admin-main { padding: 108px 48px 40px; max-width: 980px; }
 .admin-page-title { font-family: 'Playfair Display', serif; font-size: 32px; font-weight: 800; color: var(--ink); margin-bottom: 8px; }
 .admin-page-sub { font-size: 14px; color: var(--muted); margin-bottom: 36px; }
 
@@ -884,6 +894,6 @@ section { padding: 96px 5vw; }
   .admin-shell { grid-template-columns: 1fr; }
   .admin-sidebar { flex-direction: row; overflow-x: auto; padding: 16px; }
   .admin-sidebar-logo { display: none; }
-  .admin-main { padding: 28px 20px; }
+  .admin-main { padding: 28px 20px 20px; }
   .admin-field-row { grid-template-columns: 1fr; }
 }
