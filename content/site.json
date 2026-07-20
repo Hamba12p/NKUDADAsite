@@ -3,7 +3,7 @@
     "siteName": "NK Udada Foundation",
     "tagline": "Empower & Equip · Uganda",
     "title": "NK Udada Foundation — Empower & Equip",
-    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, menstrual health, life skills, and community. Empower and Equip."
+    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, sexual and reproductive health, life skills, and community. \"Empower and Equip\"!"
   },
   "hero": {
     "eyebrow": "Youth-Led · Uganda · Est. 2024",
@@ -11,27 +11,65 @@
     "titleLine2": "Uganda's next",
     "titleLine3": "generation",
     "subtitle": "NK Udada Foundation is a youth-founded nonprofit in Uganda equipping young people with education, health resources, life skills, and community — because when we invest in both genders, we multiply potential.",
-    "primaryCta": { "label": "Join as Volunteer", "href": "/volunteer" },
-    "secondaryCta": { "label": "Our Story", "href": "/about" },
+    "primaryCta": {
+      "label": "Join as Volunteer",
+      "href": "/volunteer"
+    },
+    "secondaryCta": {
+      "label": "Our Story",
+      "href": "/about"
+    },
     "stats": [
-      { "value": "900", "suffix": "+", "label": "People Served" },
-      { "value": "5", "suffix": "", "label": "Core Programs" },
-      { "value": "4", "suffix": "+", "label": "Partner Orgs" }
+      {
+        "value": "900",
+        "suffix": "+",
+        "label": "People Served"
+      },
+      {
+        "value": "5",
+        "suffix": "",
+        "label": "Core Programs"
+      },
+      {
+        "value": "4",
+        "suffix": "+",
+        "label": "Partner Orgs"
+      }
     ],
     "highlightCard": {
       "tag": "2025 Impact Highlight",
       "title": "Mengo Social Centre Medical Camp",
       "body": "A landmark day serving over 900 community members — led and coordinated by NK Udada Foundation in partnership with four major organisations.",
       "items": [
-        { "color": "purple", "text": "HIV testing & counselling" },
-        { "color": "green", "text": "Family planning & reproductive health" },
-        { "color": "gold", "text": "Youth counselling & life skills" },
-        { "color": "rust", "text": "Free medication distribution" }
+        {
+          "color": "purple",
+          "text": "HIV testing & counselling"
+        },
+        {
+          "color": "green",
+          "text": "Family planning & reproductive health"
+        },
+        {
+          "color": "gold",
+          "text": "Youth counselling & life skills"
+        },
+        {
+          "color": "rust",
+          "text": "Free medication distribution"
+        }
       ]
     },
     "floatBadges": [
-      { "icon": "graduation-cap", "label": "SDG Aligned", "value": "Goal 4 · Goal 5" },
-      { "icon": "map-pin", "label": "Based in", "value": "Kampala, Uganda" }
+      {
+        "icon": "graduation-cap",
+        "label": "SDG Aligned",
+        "value": "Goal 4 · Goal 5"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Based in",
+        "value": "Kampala, Uganda"
+      }
     ]
   },
   "about": {
@@ -45,10 +83,26 @@
     ],
     "pillarsTag": "What We Do",
     "pillars": [
-      { "icon": "book-open", "title": "Education Access", "desc": "Removing barriers to learning for youth in under-resourced communities across Uganda." },
-      { "icon": "flower-2", "title": "Menstrual Health & Support", "desc": "Providing products, education and a stigma-free space so girls never miss school because of their period." },
-      { "icon": "handshake", "title": "Life Skills & Mentorship", "desc": "Career development, financial literacy, mental health, and peer support for young people." },
-      { "icon": "megaphone", "title": "Advocacy & Awareness", "desc": "Challenging harmful norms and amplifying youth voices in communities and policy spaces." }
+      {
+        "icon": "book-open",
+        "title": "Education Access",
+        "desc": "Removing barriers to learning for youth in under-resourced communities across Uganda."
+      },
+      {
+        "icon": "flower-2",
+        "title": "Menstrual Health & Support",
+        "desc": "Providing products, education and a stigma-free space so girls never miss school because of their period."
+      },
+      {
+        "icon": "handshake",
+        "title": "Life Skills & Mentorship",
+        "desc": "Career development, financial literacy, mental health, and peer support for young people."
+      },
+      {
+        "icon": "megaphone",
+        "title": "Advocacy & Awareness",
+        "desc": "Challenging harmful norms and amplifying youth voices in communities and policy spaces."
+      }
     ]
   },
   "impact": {
@@ -57,15 +111,35 @@
     "titleEm": "Real change.",
     "subtitle": "Every number here represents a young life touched. Here's what NK Udada has delivered on the ground.",
     "cards": [
-      { "num": "900", "suffix": "+", "label": "Community Members Served", "desc": "In a single day at the Mengo Social Centre Medical Camp — free healthcare, HIV testing, youth counselling, and medication." },
-      { "num": "50", "suffix": "+", "label": "Vulnerable Youth Reached", "desc": "Through the Kawempe Zone Slum Area community outreach — menstrual kits, reproductive health sessions, and life skills support." },
-      { "num": "10", "suffix": "+", "label": "Services in One Day", "desc": "Medical consultations, scans, circumcision, HIV screening, family planning, counselling, and free medication — all free of charge." }
+      {
+        "num": "900",
+        "suffix": "+",
+        "label": "Community Members Served",
+        "desc": "In a single day at the Mengo Social Centre Medical Camp — free healthcare, HIV testing, youth counselling, and medication."
+      },
+      {
+        "num": "50",
+        "suffix": "+",
+        "label": "Vulnerable Youth Reached",
+        "desc": "Through the Kawempe Zone Slum Area community outreach — menstrual kits, reproductive health sessions, and life skills support."
+      },
+      {
+        "num": "10",
+        "suffix": "+",
+        "label": "Services in One Day",
+        "desc": "Medical consultations, scans, circumcision, HIV screening, family planning, counselling, and free medication — all free of charge."
+      }
     ],
     "event": {
       "num": "4",
       "label": "Major Organisations — One Mission",
       "desc": "NK Udada served as the lead implementing organisation, coordinating with healthcare providers, charities, and community partners to deliver extraordinary impact.",
-      "partners": ["Hajat Minsa Kabanda Foundation", "BAPS Charities", "Mengo Doctors Clinic", "Sembera Foundation"],
+      "partners": [
+        "Hajat Minsa Kabanda Foundation",
+        "BAPS Charities",
+        "Mengo Doctors Clinic",
+        "Sembera Foundation"
+      ],
       "date": "August 10, 2025",
       "place": "Mengo Social Centre, Kampala, Uganda"
     }
@@ -82,9 +156,18 @@
       "desc": "Our flagship programme brings interactive sessions directly into schools across Kampala — covering mentorship, sexual and reproductive health, career guidance, and financial literacy. We partner with educators and parents to create lasting change.",
       "sessionTopicsTitle": "Session Topics",
       "sessionTopics": [
-        { "icon": "stethoscope", "text": "Sexual & Reproductive Health" },
-        { "icon": "briefcase", "text": "Career & Non-Traditional Pathways" },
-        { "icon": "coins", "text": "Financial Literacy" }
+        {
+          "icon": "stethoscope",
+          "text": "Sexual & Reproductive Health"
+        },
+        {
+          "icon": "briefcase",
+          "text": "Career & Non-Traditional Pathways"
+        },
+        {
+          "icon": "coins",
+          "text": "Financial Literacy"
+        }
       ]
     },
     "cards": [
@@ -93,14 +176,22 @@
         "sdg": "SDG 5 · SDG 3",
         "title": "Menstrual Health Programme",
         "desc": "Providing reusable menstrual health kits, education, and safe spaces so girls never miss school because of their period. We break the stigma one community at a time.",
-        "tags": ["Kit Distribution", "Hygiene Education", "Stigma Reduction"]
+        "tags": [
+          "Kit Distribution",
+          "Hygiene Education",
+          "Stigma Reduction"
+        ]
       },
       {
         "icon": "heart-pulse",
         "sdg": "SDG 3 · SDG 10",
         "title": "Community Health Outreach",
         "desc": "Partnering with medical organisations to bring free healthcare — consultations, HIV testing, family planning, and medication — to under-served communities in Kampala.",
-        "tags": ["Medical Camps", "HIV Testing", "Family Planning"]
+        "tags": [
+          "Medical Camps",
+          "HIV Testing",
+          "Family Planning"
+        ]
       }
     ]
   },
@@ -110,11 +201,41 @@
     "titleEm": "committed changemakers",
     "subtitle": "Five young people. One mission. Building a more equitable Uganda.",
     "members": [
-      { "initials": "NK", "name": "Naira Kateregga", "role": "Founder & Coordinator", "color": "purple", "founder": true },
-      { "initials": "BY", "name": "Balqees Yasin", "role": "Consultations & Advisory Board Lead", "color": "green", "founder": false },
-      { "initials": "HS", "name": "Hamba Shabil", "role": "Operations & Programs Manager", "color": "rust", "founder": false },
-      { "initials": "KJ", "name": "Kizito Jamal", "role": "General Manager", "color": "gold", "founder": false },
-      { "initials": "SN", "name": "Shamsa Nantongo", "role": "Finance & Procurement Manager", "color": "purple-lt", "founder": false }
+      {
+        "initials": "NK",
+        "name": "Naira Kateregga",
+        "role": "Founder & Coordinator",
+        "color": "purple",
+        "founder": true
+      },
+      {
+        "initials": "BY",
+        "name": "Balqees Yasin",
+        "role": "Consultations & Advisory Board Lead",
+        "color": "green",
+        "founder": false
+      },
+      {
+        "initials": "HS",
+        "name": "Hamba Shabil",
+        "role": "Operations & Programs Manager",
+        "color": "rust",
+        "founder": false
+      },
+      {
+        "initials": "KJ",
+        "name": "Kizito Jamal",
+        "role": "General Manager",
+        "color": "gold",
+        "founder": false
+      },
+      {
+        "initials": "SN",
+        "name": "Shamsa Nantongo",
+        "role": "Finance & Procurement Manager",
+        "color": "purple-lt",
+        "founder": false
+      }
     ],
     "joinCard": {
       "title": "Join the Team",
@@ -128,12 +249,28 @@
     "titleEm": "the change",
     "subtitle": "NK Udada runs on the energy and skills of passionate young people. Whether you're into health, education, communications, or events — there's a place for you.",
     "perks": [
-      { "icon": "clipboard-list", "text": "Structured onboarding & skills assessment" },
-      { "icon": "handshake", "text": "Work alongside a dedicated leadership team" },
-      { "icon": "globe-2", "text": "Build real experience in community development" },
-      { "icon": "lightbulb", "text": "Contribute to SDG-aligned, grant-funded programmes" }
+      {
+        "icon": "clipboard-list",
+        "text": "Structured onboarding & skills assessment"
+      },
+      {
+        "icon": "handshake",
+        "text": "Work alongside a dedicated leadership team"
+      },
+      {
+        "icon": "globe-2",
+        "text": "Build real experience in community development"
+      },
+      {
+        "icon": "lightbulb",
+        "text": "Contribute to SDG-aligned, grant-funded programmes"
+      }
     ],
-    "cta": { "label": "Apply to Volunteer", "email": "admin@the-nkfoundation.org", "subject": "Volunteer Interest - NK Udada Foundation" },
+    "cta": {
+      "label": "Apply to Volunteer",
+      "email": "admin@the-nkfoundation.org",
+      "subject": "Volunteer Interest - NK Udada Foundation"
+    },
     "formTitle": "Volunteer Interest Form",
     "areasOfInterest": [
       "Health & Community Outreach",
@@ -153,22 +290,70 @@
     "title": "Get in touch",
     "subtitle": "Whether you're a potential partner, funder, community member, or just curious about our work — we'd love to hear from you.",
     "items": [
-      { "icon": "mail", "label": "Email", "value": "admin@the-nkfoundation.org", "href": "mailto:admin@the-nkfoundation.org" },
-      { "icon": "message-circle", "label": "Call / WhatsApp", "value": "+256 765 367558", "href": "https://wa.me/256765367558" },
-      { "icon": "map-pin", "label": "Location", "value": "Kampala, Uganda", "href": "" },
-      { "icon": "instagram", "label": "Instagram", "value": "@nkudadafoundation", "href": "https://instagram.com/nkudadafoundation" }
+      {
+        "icon": "mail",
+        "label": "Email",
+        "value": "admin@the-nkfoundation.org",
+        "href": "mailto:admin@the-nkfoundation.org"
+      },
+      {
+        "icon": "message-circle",
+        "label": "Call / WhatsApp",
+        "value": "+256 765 367558",
+        "href": "https://wa.me/256765367558"
+      },
+      {
+        "icon": "map-pin",
+        "label": "Location",
+        "value": "Kampala, Uganda",
+        "href": ""
+      },
+      {
+        "icon": "instagram",
+        "label": "Instagram",
+        "value": "@nkudadafoundation",
+        "href": "https://instagram.com/nkudadafoundation"
+      }
     ],
     "socials": [
-      { "icon": "instagram", "label": "Instagram", "href": "https://instagram.com/nkudadafoundation" },
-      { "icon": "message-circle", "label": "WhatsApp", "href": "https://wa.me/256765367558" },
-      { "icon": "mail", "label": "Email", "href": "mailto:admin@the-nkfoundation.org" },
-      { "icon": "heart", "label": "Donate", "href": "https://gofund.me/3216dd6a" }
+      {
+        "icon": "instagram",
+        "label": "Instagram",
+        "href": "https://instagram.com/nkudadafoundation"
+      },
+      {
+        "icon": "message-circle",
+        "label": "WhatsApp",
+        "href": "https://wa.me/256765367558"
+      },
+      {
+        "icon": "mail",
+        "label": "Email",
+        "href": "mailto:admin@the-nkfoundation.org"
+      },
+      {
+        "icon": "heart",
+        "label": "Donate",
+        "href": "https://gofund.me/3216dd6a"
+      }
     ],
     "sdgTitle": "UN Sustainable Development Goals",
     "sdgs": [
-      { "num": "4", "text": "Quality Education", "cls": "s4" },
-      { "num": "5", "text": "Gender Equality", "cls": "s5" },
-      { "num": "3", "text": "Good Health & Wellbeing", "cls": "s3" }
+      {
+        "num": "4",
+        "text": "Quality Education",
+        "cls": "s4"
+      },
+      {
+        "num": "5",
+        "text": "Gender Equality",
+        "cls": "s5"
+      },
+      {
+        "num": "3",
+        "text": "Good Health & Wellbeing",
+        "cls": "s3"
+      }
     ],
     "donateTitle": "Support Our Work",
     "donateCta": "Donate via GoFundMe",
@@ -178,20 +363,50 @@
   "footer": {
     "copy": "© 2025 NK Udada Foundation. Registered Non-Profit Organisation, Uganda. All rights reserved.",
     "links": [
-      { "label": "About", "href": "/about" },
-      { "label": "Programs", "href": "/programs" },
-      { "label": "Volunteer", "href": "/volunteer" },
-      { "label": "Contact", "href": "/contact" }
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Programs",
+        "href": "/programs"
+      },
+      {
+        "label": "Volunteer",
+        "href": "/volunteer"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
     ]
   },
   "nav": {
     "links": [
-      { "label": "About", "href": "/about" },
-      { "label": "Programs", "href": "/programs" },
-      { "label": "Gallery", "href": "/gallery" },
-      { "label": "Team", "href": "/team" },
-      { "label": "Blog", "href": "/blog" }
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Programs",
+        "href": "/programs"
+      },
+      {
+        "label": "Gallery",
+        "href": "/gallery"
+      },
+      {
+        "label": "Team",
+        "href": "/team"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
+      }
     ],
-    "cta": { "label": "Volunteer", "href": "/volunteer" }
+    "cta": {
+      "label": "Volunteer",
+      "href": "/volunteer"
+    }
   }
 }
