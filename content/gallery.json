@@ -1,0 +1,22 @@
+{
+  "tag": "Gallery",
+  "title": "Moments from the field",
+  "subtitle": "A selection of photos and short clips from our programmes, community days, and outreach efforts.",
+  "note": "Videos are muted by default. Click to enable audio and fullscreen playback.",
+  "items": [
+    { "id": "img-1474", "type": "image", "src": "/assets/images/IMG_1474.jpg", "caption": "", "category": "Community" },
+    { "id": "img-1528", "type": "image", "src": "/assets/images/IMG_1528.jpg", "caption": "", "category": "Community" },
+    { "id": "img-3473", "type": "image", "src": "/assets/images/IMG_3473.jpg", "caption": "", "category": "Outreach" },
+    { "id": "img-3495", "type": "image", "src": "/assets/images/IMG_3495.jpg", "caption": "", "category": "Outreach" },
+    { "id": "img-3513", "type": "image", "src": "/assets/images/IMG_3513.jpg", "caption": "", "category": "Outreach" },
+    { "id": "img-5609", "type": "image", "src": "/assets/images/IMG_5609.jpg", "caption": "", "category": "Medical Camp" },
+    { "id": "img-5617", "type": "image", "src": "/assets/images/IMG_5617.jpg", "caption": "", "category": "Medical Camp" },
+    { "id": "img-5624", "type": "image", "src": "/assets/images/IMG_5624.jpg", "caption": "", "category": "Medical Camp" },
+    { "id": "img-5652", "type": "image", "src": "/assets/images/IMG_5652.jpg", "caption": "", "category": "Medical Camp" },
+    { "id": "img-5657", "type": "image", "src": "/assets/images/IMG_5657.jpg", "caption": "", "category": "Medical Camp" },
+    { "id": "img-7102", "type": "image", "src": "/assets/images/IMG_7102.jpg", "caption": "", "category": "Team" },
+    { "id": "vid-2856", "type": "video", "src": "/assets/videos/IMG_2856.mp4", "caption": "", "category": "Community" },
+    { "id": "vid-5631", "type": "video", "src": "/assets/videos/IMG_5631.mp4", "caption": "", "category": "Medical Camp" },
+    { "id": "vid-9b47", "type": "video", "src": "/assets/videos/9B4727BC-9F9C-4F0B-B799-C6F2D4B106B5.mp4", "caption": "", "category": "Outreach" }
+  ]
+}
