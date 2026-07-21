@@ -3,7 +3,7 @@
     "siteName": "NK Udada Foundation",
     "tagline": "Empower & Equip · Uganda",
     "title": "NK Udada Foundation — Empower & Equip",
-    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, sexual and reproductive health, life skills, and community. \"Empower and Equip\"!"
+    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, menstrual health, life skills, and community. Empower and Equip."
   },
   "hero": {
     "eyebrow": "Youth-Led · Uganda · Est. 2024",
@@ -199,7 +199,7 @@
     "tag": "The People Behind NK Udada",
     "titleLine1": "A team of",
     "titleEm": "committed changemakers",
-    "subtitle": "Five young people. One mission. Building a more equitable Uganda.",
+    "subtitle": "A team of young people. One mission. Building a more equitable Uganda.",
     "members": [
       {
         "initials": "NK",
@@ -234,6 +234,13 @@
         "name": "Shamsa Nantongo",
         "role": "Finance & Procurement Manager",
         "color": "purple-lt",
+        "founder": false
+      },
+      {
+        "initials": "AY",
+        "name": "Aminah Yarmah",
+        "role": "Volunteer Rep",
+        "color": "gold",
         "founder": false
       }
     ],
