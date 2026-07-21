@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import RevealObserver from "@/components/RevealObserver";
 import { getSiteContent } from "@/lib/content";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export async function generateMetadata() {
   const { meta } = getSiteContent();
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         <Footer footer={site.footer} />
         <RevealObserver />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
