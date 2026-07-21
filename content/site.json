@@ -108,13 +108,14 @@
     "tag": "The People Behind NK Udada",
     "titleLine1": "A team of",
     "titleEm": "committed changemakers",
-    "subtitle": "Five young people. One mission. Building a more equitable Uganda.",
+    "subtitle": "Six young people. One mission. Building a more equitable Uganda.",
     "members": [
       { "initials": "NK", "name": "Naira Kateregga", "role": "Founder & Coordinator", "color": "purple", "founder": true },
       { "initials": "BY", "name": "Balqees Yasin", "role": "Consultations & Advisory Board Lead", "color": "green", "founder": false },
       { "initials": "HS", "name": "Hamba Shabil", "role": "Operations & Programs Manager", "color": "rust", "founder": false },
       { "initials": "KJ", "name": "Kizito Jamal", "role": "General Manager", "color": "gold", "founder": false },
-      { "initials": "SN", "name": "Shamsa Nantongo", "role": "Finance & Procurement Manager", "color": "purple-lt", "founder": false }
+      { "initials": "SN", "name": "Shamsa Nantongo", "role": "Finance & Procurement Manager", "color": "purple-lt", "founder": false },
+      { "initials": "AY", "name": "Aminah Yarmah", "role": "Volunteer Rep", "color": "gold", "founder": false }
     ],
     "joinCard": {
       "title": "Join the Team",
