@@ -1,3 +1,1060 @@
 {
-  "students": []
+  "students": [
+    {
+      "id": "s-1786630883541-7p08n",
+      "name": "Nakifuma Modern Secondary School – Outreach List",
+      "gender": "Unspecified",
+      "age": "",
+      "school": "",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-mzwsw",
+      "name": "Kiddawalime Ramuthia",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-4qneq",
+      "name": "Ninsiima Betina",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-5v55c",
+      "name": "Nakyeyune Patience",
+      "gender": "Girl",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-h13cf",
+      "name": "Hatim Abudallah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ppd10",
+      "name": "Nabadda Ramulah Railen",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-iqbx5",
+      "name": "Nakalembe Jovia",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-w7ai7",
+      "name": "Nakonde Hadijah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-nbel4",
+      "name": "Tigaiza Saliru-Din",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-lsb61",
+      "name": "Kyomuhezi Rebecca",
+      "gender": "Girl",
+      "age": "Nakifuma Modern Secondary School",
+      "school": "S.2",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-7nlgx",
+      "name": "Nyomera Sharifah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-mlvcj",
+      "name": "Nakawoya Hanisha",
+      "gender": "Unspecified",
+      "age": "Nakifuma Modern Secondary School",
+      "school": "S.2",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-0jg41",
+      "name": "Nabadda Zaharah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-wyxa8",
+      "name": "Nansubuga Kautharah Nisha",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-0l73n",
+      "name": "Najjuma Shamilah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ry98m",
+      "name": "Nabasirye Ziyadah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-dhsba",
+      "name": "Nanyonjo Zaharah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-eo6d4",
+      "name": "Nabukenya Leilah Lubega",
+      "gender": "Boy",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-32tk0",
+      "name": "Nangobi Sharifah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-gdhga",
+      "name": "Natimba Jazirah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-h9xxm",
+      "name": "Najjuka Shibah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-yatgy",
+      "name": "Nalubega Eron",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-1wjnz",
+      "name": "Nakiwu Hafuswa",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-5u3zb",
+      "name": "Nakibuuka Sharifah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-0w8au",
+      "name": "Sabamo Swaburah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-1f9k2",
+      "name": "Mukisa Kevin",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-bpq41",
+      "name": "Sserumaga Steven Mike",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-2k6v3",
+      "name": "Nabachwa Aminah Shirat",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-pifzf",
+      "name": "Nakazzi Sharifah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-hyrxx",
+      "name": "Kagoya Kuluthum",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-978af",
+      "name": "Bukirwa Aisha",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-50cbz",
+      "name": "Kizza Shanurah Shamuh",
+      "gender": "Boy",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-arlf8",
+      "name": "Namayanja Favour",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rgd0l",
+      "name": "Nakayi Fatina",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-kme5m",
+      "name": "Kasuubo Safiat",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-5vnjs",
+      "name": "Mwesigwa Nakato",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-tcvpi",
+      "name": "Muyomba Martin",
+      "gender": "Boy",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-jiviz",
+      "name": "Nanyanzi Kizza Ruth",
+      "gender": "Boy",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-fvgh9",
+      "name": "Natukunda Gift",
+      "gender": "Girl",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-u9pjy",
+      "name": "Nasimbwa Zulaika",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-kxprp",
+      "name": "Nakibuuka Razia",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-76ebk",
+      "name": "Namayanja Zam",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-8rtom",
+      "name": "Nakajugo Sophie",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-at0oo",
+      "name": "Bashir Lubogo",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-4qig7",
+      "name": "Fahad Muhammed Junior",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-nnat1",
+      "name": "Tamale Muhammed",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-x479o",
+      "name": "Kibira Muhsin",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-mebzk",
+      "name": "Kugonza Mercy",
+      "gender": "Girl",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-phrvj",
+      "name": "Nakazibwe Zulfah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-zw5sr",
+      "name": "Nabanja Fazirah",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-bc8dv",
+      "name": "Nalukenge Mayi",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-y9pks",
+      "name": "Juwana Mariam Mutwalib",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ygpur",
+      "name": "Nabwami Maimuna Swaliat",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rsm3w",
+      "name": "Kasule Rayan",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-vqpx7",
+      "name": "Asaba Joel",
+      "gender": "Unspecified",
+      "age": "S.2",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-h8l1s",
+      "name": "Namuwaya Habiibah",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-cxxjj",
+      "name": "Nakabugo Lukia",
+      "gender": "Unspecified",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-n5p0h",
+      "name": "Wasswa Abdul Fataha",
+      "gender": "Boy",
+      "age": "S.1",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-n7v8h",
+      "name": "Mazzi Benah",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-c0jnx",
+      "name": "Auma Sharon",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rfs00",
+      "name": "Nansimbe Mariam",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-jysmg",
+      "name": "Namanda Salimah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-jkbk5",
+      "name": "Nangobi Gloria",
+      "gender": "Girl",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rb9bf",
+      "name": "Nalwanga Swhaira Aminah",
+      "gender": "Unspecified",
+      "age": "S.6",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-sg1pl",
+      "name": "Ssali Kevin",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ugwu2",
+      "name": "Nakanjako Kamiat",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-4s5sj",
+      "name": "Namuganza Flavia",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-lw4aq",
+      "name": "Namuyaba Nubuyati",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-0swy3",
+      "name": "Kimbowa Umusalimah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ufwgd",
+      "name": "Hudah Ali",
+      "gender": "Boy",
+      "age": "S.6",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-1ijtf",
+      "name": "Nassali Hajjarah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-x2zbz",
+      "name": "Nabafu Shamim",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-9w7zj",
+      "name": "Nanyombi Teddy Rahmah",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-1d9hk",
+      "name": "Bakolo Anna",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-np1tp",
+      "name": "Bishawo Patience",
+      "gender": "Girl",
+      "age": "S.6",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-p5y61",
+      "name": "Mukisa Harriet",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-wgkne",
+      "name": "Bagaga Sharon",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-lj7ou",
+      "name": "Nakirya Mariam",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-btjf9",
+      "name": "Babirye Pauline",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-a1mp0",
+      "name": "Namutebi Yusaya",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-6xf8q",
+      "name": "Tiisa Clara Gloria",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-sp3fq",
+      "name": "Najemba Umukhaira",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-uaqbj",
+      "name": "Nazir Rizik",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-p45fv",
+      "name": "Mbeeko Shadia",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-tw3vh",
+      "name": "Nakisozzi Shifurah",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-g34te",
+      "name": "Nabakooza Jazira",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-wpuc5",
+      "name": "Mabirizi Rashimi",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-398ex",
+      "name": "Ssemakadde Abdul",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ikk0s",
+      "name": "Buwembo Abasi",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ihmcr",
+      "name": "Kasozi Hamzah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-fedgc",
+      "name": "Ssenoga Fauzi",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-zemaz",
+      "name": "Ssemambo Abdul",
+      "gender": "Boy",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-mxwey",
+      "name": "Mulungi Aisha",
+      "gender": "Girl",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-e7xr9",
+      "name": "Mbeeko Arafat",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-caawg",
+      "name": "Katerega Caxton",
+      "gender": "Unspecified",
+      "age": "S.6",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-5ixof",
+      "name": "Rayan Sulaiman",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ivbvh",
+      "name": "Abuaza Abdulrahim",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-38rse",
+      "name": "Nsonga Hatim",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-23b56",
+      "name": "Kalisa Karim J",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-isjeh",
+      "name": "Juma Lumu",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-xi8s7",
+      "name": "Kanyike Charles",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rz5gd",
+      "name": "Kakembo David",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary Schoo",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-w6ey6",
+      "name": "Mubiru Ashiraf",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-37unq",
+      "name": "Lusambya Adams Beile",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-onb1l",
+      "name": "Atiku Rayan",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-kzio0",
+      "name": "Sentongo Shien Mark",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-yhxwk",
+      "name": "Isiige Ramadhan",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-2tc70",
+      "name": "Ndagire Bushira",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-1kbc6",
+      "name": "Nalwoga Sarah",
+      "gender": "Girl",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-uj30b",
+      "name": "Bukenya Ezera",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-z30zv",
+      "name": "Ssonko Farooq",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-bk5z7",
+      "name": "Kasozi Fahad",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-7gbhg",
+      "name": "Okello Isaac Emmanuel",
+      "gender": "Boy",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-0q4ne",
+      "name": "Nkolo Ioma",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-koogo",
+      "name": "Nakizza Habibah",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-kid4c",
+      "name": "Kagoya Zainabu",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-b5dn3",
+      "name": "Muhammad Falijala",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-4z2ag",
+      "name": "Namulwasira Janat",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-px4a3",
+      "name": "Nandera Velima",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-egj1r",
+      "name": "Ndagire Hanisha",
+      "gender": "Unspecified",
+      "age": "S.5",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-4jsmx",
+      "name": "Babirye Sheilah",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-7cbz4",
+      "name": "Namuwaya Nafishah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-k8nmb",
+      "name": "Namutebi Hashifah",
+      "gender": "Girl",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-m55t1",
+      "name": "Nakate Sharifah S",
+      "gender": "Unspecified",
+      "age": "S.3",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-8jn29",
+      "name": "Nakyambade Jamirah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-j4pi5",
+      "name": "Mujahid Abdallah",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-cwm5g",
+      "name": "Sserunkuma Ronald",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-lrb6p",
+      "name": "Alee Jackson",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-rx1y3",
+      "name": "Hamidu Hamix",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-ng05b",
+      "name": "Kakeeto Shabir",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-34teo",
+      "name": "Kyogera Charles Trevor",
+      "gender": "Boy",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    },
+    {
+      "id": "s-1786630883542-hvyds",
+      "name": "Tashioma Jackson",
+      "gender": "Unspecified",
+      "age": "S.4",
+      "school": "Nakifuma Modern Secondary School",
+      "addedAt": "2026-08-13T14:21:23.542Z"
+    }
+  ]
 }
