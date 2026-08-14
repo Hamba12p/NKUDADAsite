@@ -1,17 +1,9 @@
 {
   "students": [
     {
-      "id": "s-1786630883541-7p08n",
-      "name": "Nakifuma Modern Secondary School – Outreach List",
-      "gender": "Unspecified",
-      "age": "",
-      "school": "",
-      "addedAt": "2026-08-13T14:21:23.542Z"
-    },
-    {
       "id": "s-1786630883542-mzwsw",
       "name": "Kiddawalime Ramuthia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -19,7 +11,7 @@
     {
       "id": "s-1786630883542-4qneq",
       "name": "Ninsiima Betina",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -35,7 +27,7 @@
     {
       "id": "s-1786630883542-h13cf",
       "name": "Hatim Abudallah",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -43,7 +35,7 @@
     {
       "id": "s-1786630883542-ppd10",
       "name": "Nabadda Ramulah Railen",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -51,7 +43,7 @@
     {
       "id": "s-1786630883542-iqbx5",
       "name": "Nakalembe Jovia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -59,7 +51,7 @@
     {
       "id": "s-1786630883542-w7ai7",
       "name": "Nakonde Hadijah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -67,7 +59,7 @@
     {
       "id": "s-1786630883542-nbel4",
       "name": "Tigaiza Saliru-Din",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -83,7 +75,7 @@
     {
       "id": "s-1786630883542-7nlgx",
       "name": "Nyomera Sharifah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -91,7 +83,7 @@
     {
       "id": "s-1786630883542-mlvcj",
       "name": "Nakawoya Hanisha",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "Nakifuma Modern Secondary School",
       "school": "S.2",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -99,7 +91,7 @@
     {
       "id": "s-1786630883542-0jg41",
       "name": "Nabadda Zaharah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -115,7 +107,7 @@
     {
       "id": "s-1786630883542-0l73n",
       "name": "Najjuma Shamilah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -123,7 +115,7 @@
     {
       "id": "s-1786630883542-ry98m",
       "name": "Nabasirye Ziyadah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -131,7 +123,7 @@
     {
       "id": "s-1786630883542-dhsba",
       "name": "Nanyonjo Zaharah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -139,7 +131,7 @@
     {
       "id": "s-1786630883542-eo6d4",
       "name": "Nabukenya Leilah Lubega",
-      "gender": "Boy",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -147,7 +139,7 @@
     {
       "id": "s-1786630883542-32tk0",
       "name": "Nangobi Sharifah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -155,7 +147,7 @@
     {
       "id": "s-1786630883542-gdhga",
       "name": "Natimba Jazirah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -163,7 +155,7 @@
     {
       "id": "s-1786630883542-h9xxm",
       "name": "Najjuka Shibah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -179,7 +171,7 @@
     {
       "id": "s-1786630883542-1wjnz",
       "name": "Nakiwu Hafuswa",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -187,7 +179,7 @@
     {
       "id": "s-1786630883542-5u3zb",
       "name": "Nakibuuka Sharifah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -195,7 +187,7 @@
     {
       "id": "s-1786630883542-0w8au",
       "name": "Sabamo Swaburah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -211,7 +203,7 @@
     {
       "id": "s-1786630883542-bpq41",
       "name": "Sserumaga Steven Mike",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -219,7 +211,7 @@
     {
       "id": "s-1786630883542-2k6v3",
       "name": "Nabachwa Aminah Shirat",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -227,7 +219,7 @@
     {
       "id": "s-1786630883542-pifzf",
       "name": "Nakazzi Sharifah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -235,7 +227,7 @@
     {
       "id": "s-1786630883542-hyrxx",
       "name": "Kagoya Kuluthum",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -259,7 +251,7 @@
     {
       "id": "s-1786630883542-arlf8",
       "name": "Namayanja Favour",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -267,7 +259,7 @@
     {
       "id": "s-1786630883542-rgd0l",
       "name": "Nakayi Fatina",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -275,7 +267,7 @@
     {
       "id": "s-1786630883542-kme5m",
       "name": "Kasuubo Safiat",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -299,7 +291,7 @@
     {
       "id": "s-1786630883542-jiviz",
       "name": "Nanyanzi Kizza Ruth",
-      "gender": "Boy",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -315,7 +307,7 @@
     {
       "id": "s-1786630883542-u9pjy",
       "name": "Nasimbwa Zulaika",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -323,7 +315,7 @@
     {
       "id": "s-1786630883542-kxprp",
       "name": "Nakibuuka Razia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -331,7 +323,7 @@
     {
       "id": "s-1786630883542-76ebk",
       "name": "Namayanja Zam",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -339,7 +331,7 @@
     {
       "id": "s-1786630883542-8rtom",
       "name": "Nakajugo Sophie",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -347,7 +339,7 @@
     {
       "id": "s-1786630883542-at0oo",
       "name": "Bashir Lubogo",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -355,7 +347,7 @@
     {
       "id": "s-1786630883542-4qig7",
       "name": "Fahad Muhammed Junior",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -363,7 +355,7 @@
     {
       "id": "s-1786630883542-nnat1",
       "name": "Tamale Muhammed",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -371,7 +363,7 @@
     {
       "id": "s-1786630883542-x479o",
       "name": "Kibira Muhsin",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -387,7 +379,7 @@
     {
       "id": "s-1786630883542-phrvj",
       "name": "Nakazibwe Zulfah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -395,7 +387,7 @@
     {
       "id": "s-1786630883542-zw5sr",
       "name": "Nabanja Fazirah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -403,7 +395,7 @@
     {
       "id": "s-1786630883542-bc8dv",
       "name": "Nalukenge Mayi",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -411,7 +403,7 @@
     {
       "id": "s-1786630883542-y9pks",
       "name": "Juwana Mariam Mutwalib",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -419,7 +411,7 @@
     {
       "id": "s-1786630883542-ygpur",
       "name": "Nabwami Maimuna Swaliat",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -427,7 +419,7 @@
     {
       "id": "s-1786630883542-rsm3w",
       "name": "Kasule Rayan",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -435,7 +427,7 @@
     {
       "id": "s-1786630883542-vqpx7",
       "name": "Asaba Joel",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.2",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -443,7 +435,7 @@
     {
       "id": "s-1786630883542-h8l1s",
       "name": "Namuwaya Habiibah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -451,7 +443,7 @@
     {
       "id": "s-1786630883542-cxxjj",
       "name": "Nakabugo Lukia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.1",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -467,7 +459,7 @@
     {
       "id": "s-1786630883542-n7v8h",
       "name": "Mazzi Benah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -483,7 +475,7 @@
     {
       "id": "s-1786630883542-rfs00",
       "name": "Nansimbe Mariam",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -491,7 +483,7 @@
     {
       "id": "s-1786630883542-jysmg",
       "name": "Namanda Salimah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -507,7 +499,7 @@
     {
       "id": "s-1786630883542-rb9bf",
       "name": "Nalwanga Swhaira Aminah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.6",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -523,7 +515,7 @@
     {
       "id": "s-1786630883542-ugwu2",
       "name": "Nakanjako Kamiat",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -531,7 +523,7 @@
     {
       "id": "s-1786630883542-4s5sj",
       "name": "Namuganza Flavia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -539,7 +531,7 @@
     {
       "id": "s-1786630883542-lw4aq",
       "name": "Namuyaba Nubuyati",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -547,7 +539,7 @@
     {
       "id": "s-1786630883542-0swy3",
       "name": "Kimbowa Umusalimah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -563,7 +555,7 @@
     {
       "id": "s-1786630883542-1ijtf",
       "name": "Nassali Hajjarah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -571,7 +563,7 @@
     {
       "id": "s-1786630883542-x2zbz",
       "name": "Nabafu Shamim",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -579,7 +571,7 @@
     {
       "id": "s-1786630883542-9w7zj",
       "name": "Nanyombi Teddy Rahmah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -587,7 +579,7 @@
     {
       "id": "s-1786630883542-1d9hk",
       "name": "Bakolo Anna",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -619,7 +611,7 @@
     {
       "id": "s-1786630883542-lj7ou",
       "name": "Nakirya Mariam",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -627,7 +619,7 @@
     {
       "id": "s-1786630883542-btjf9",
       "name": "Babirye Pauline",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -651,7 +643,7 @@
     {
       "id": "s-1786630883542-sp3fq",
       "name": "Najemba Umukhaira",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -659,7 +651,7 @@
     {
       "id": "s-1786630883542-uaqbj",
       "name": "Nazir Rizik",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -667,7 +659,7 @@
     {
       "id": "s-1786630883542-p45fv",
       "name": "Mbeeko Shadia",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -675,7 +667,7 @@
     {
       "id": "s-1786630883542-tw3vh",
       "name": "Nakisozzi Shifurah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -683,7 +675,7 @@
     {
       "id": "s-1786630883542-g34te",
       "name": "Nabakooza Jazira",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -691,7 +683,7 @@
     {
       "id": "s-1786630883542-wpuc5",
       "name": "Mabirizi Rashimi",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -707,7 +699,7 @@
     {
       "id": "s-1786630883542-ikk0s",
       "name": "Buwembo Abasi",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -715,7 +707,7 @@
     {
       "id": "s-1786630883542-ihmcr",
       "name": "Kasozi Hamzah",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -723,7 +715,7 @@
     {
       "id": "s-1786630883542-fedgc",
       "name": "Ssenoga Fauzi",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -747,7 +739,7 @@
     {
       "id": "s-1786630883542-e7xr9",
       "name": "Mbeeko Arafat",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -755,7 +747,7 @@
     {
       "id": "s-1786630883542-caawg",
       "name": "Katerega Caxton",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.6",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -763,7 +755,7 @@
     {
       "id": "s-1786630883542-5ixof",
       "name": "Rayan Sulaiman",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -771,7 +763,7 @@
     {
       "id": "s-1786630883542-ivbvh",
       "name": "Abuaza Abdulrahim",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -779,7 +771,7 @@
     {
       "id": "s-1786630883542-38rse",
       "name": "Nsonga Hatim",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -787,7 +779,7 @@
     {
       "id": "s-1786630883542-23b56",
       "name": "Kalisa Karim J",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -795,7 +787,7 @@
     {
       "id": "s-1786630883542-isjeh",
       "name": "Juma Lumu",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -819,7 +811,7 @@
     {
       "id": "s-1786630883542-w6ey6",
       "name": "Mubiru Ashiraf",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -827,7 +819,7 @@
     {
       "id": "s-1786630883542-37unq",
       "name": "Lusambya Adams Beile",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -835,7 +827,7 @@
     {
       "id": "s-1786630883542-onb1l",
       "name": "Atiku Rayan",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -851,7 +843,7 @@
     {
       "id": "s-1786630883542-yhxwk",
       "name": "Isiige Ramadhan",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -859,7 +851,7 @@
     {
       "id": "s-1786630883542-2tc70",
       "name": "Ndagire Bushira",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -875,7 +867,7 @@
     {
       "id": "s-1786630883542-uj30b",
       "name": "Bukenya Ezera",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -883,7 +875,7 @@
     {
       "id": "s-1786630883542-z30zv",
       "name": "Ssonko Farooq",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -891,7 +883,7 @@
     {
       "id": "s-1786630883542-bk5z7",
       "name": "Kasozi Fahad",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -907,7 +899,7 @@
     {
       "id": "s-1786630883542-0q4ne",
       "name": "Nkolo Ioma",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -915,7 +907,7 @@
     {
       "id": "s-1786630883542-koogo",
       "name": "Nakizza Habibah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -923,7 +915,7 @@
     {
       "id": "s-1786630883542-kid4c",
       "name": "Kagoya Zainabu",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -931,7 +923,7 @@
     {
       "id": "s-1786630883542-b5dn3",
       "name": "Muhammad Falijala",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -939,7 +931,7 @@
     {
       "id": "s-1786630883542-4z2ag",
       "name": "Namulwasira Janat",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -947,7 +939,7 @@
     {
       "id": "s-1786630883542-px4a3",
       "name": "Nandera Velima",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -955,7 +947,7 @@
     {
       "id": "s-1786630883542-egj1r",
       "name": "Ndagire Hanisha",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.5",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -963,7 +955,7 @@
     {
       "id": "s-1786630883542-4jsmx",
       "name": "Babirye Sheilah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -971,7 +963,7 @@
     {
       "id": "s-1786630883542-7cbz4",
       "name": "Namuwaya Nafishah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -987,7 +979,7 @@
     {
       "id": "s-1786630883542-m55t1",
       "name": "Nakate Sharifah S",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.3",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -995,7 +987,7 @@
     {
       "id": "s-1786630883542-8jn29",
       "name": "Nakyambade Jamirah",
-      "gender": "Unspecified",
+      "gender": "Girl",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -1003,7 +995,7 @@
     {
       "id": "s-1786630883542-j4pi5",
       "name": "Mujahid Abdallah",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -1019,7 +1011,7 @@
     {
       "id": "s-1786630883542-lrb6p",
       "name": "Alee Jackson",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -1027,7 +1019,7 @@
     {
       "id": "s-1786630883542-rx1y3",
       "name": "Hamidu Hamix",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -1035,7 +1027,7 @@
     {
       "id": "s-1786630883542-ng05b",
       "name": "Kakeeto Shabir",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
@@ -1051,7 +1043,7 @@
     {
       "id": "s-1786630883542-hvyds",
       "name": "Tashioma Jackson",
-      "gender": "Unspecified",
+      "gender": "Boy",
       "age": "S.4",
       "school": "Nakifuma Modern Secondary School",
       "addedAt": "2026-08-13T14:21:23.542Z"
