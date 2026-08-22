@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -8,6 +9,7 @@ export default function Nav({ nav, meta }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const logoSrc = pathname === "/schools" ? "/Logo2.png" : "/Logo.jpeg";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -23,7 +25,7 @@ export default function Nav({ nav, meta }) {
     <nav className={`site-nav${scrolled ? " scrolled" : ""}`}>
       <Link href="/" className="nav-logo">
         <div className="nav-logo-mark">
-          <img src="/Logo.jpeg" alt={`${meta.siteName} logo`} />
+          <Image src={logoSrc} alt={`${meta.siteName} logo`} width={40} height={40} priority />
         </div>
         <div className="nav-logo-text">
           {meta.siteName}
