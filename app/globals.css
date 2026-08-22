@@ -822,7 +822,7 @@ section { padding: 96px 5vw; }
 }
 @keyframes lightboxIn { from { opacity: 0; } to { opacity: 1; } }
 .lightbox-media-wrap { max-width: 88vw; max-height: 82vh; display: flex; flex-direction: column; align-items: center; }
-.lightbox-media-wrap img, .lightbox-media-wrap video { max-width: 88vw; max-height: 74vh; border-radius: 14px; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
+.lightbox-media-wrap img, .lightbox-media-wrap video { width: auto; height: auto; max-width: 88vw; max-height: 74vh; object-fit: contain; border-radius: 14px; box-shadow: 0 30px 80px rgba(0,0,0,.5); }
 .lightbox-caption { color: rgba(255,255,255,.75); font-size: 14px; margin-top: 16px; text-align: center; max-width: 60ch; }
 .lightbox-close, .lightbox-nav {
   position: fixed; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.16);
@@ -849,7 +849,7 @@ section { padding: 96px 5vw; }
   transition: transform .25s, box-shadow .25s;
 }
 .blog-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,.09); }
-.blog-card-image { width: 100%; aspect-ratio: 16/10; object-fit: cover; display: block; background: var(--warm); }
+.blog-card-image { width: 100%; height: auto; aspect-ratio: 16/10; object-fit: cover; display: block; background: var(--warm); }
 .blog-card-body { padding: 26px; }
 .blog-card-date { font-family: var(--font-dm-mono), monospace; font-size: 11px; color: var(--gold); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 10px; }
 .blog-card-title { font-family: var(--font-playfair), serif; font-size: 21px; font-weight: 700; color: var(--ink); margin-bottom: 10px; line-height: 1.25; }
@@ -858,7 +858,7 @@ section { padding: 96px 5vw; }
 .blog-empty { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 15px; }
 
 .blog-post-header { max-width: 760px; margin: 0 auto 40px; text-align: center; }
-.blog-post-cover { width: 100%; max-height: 420px; object-fit: cover; border-radius: 20px; margin-bottom: 40px; }
+.blog-post-cover { width: 100%; height: min(420px, 45vw); object-fit: cover; border-radius: 20px; margin-bottom: 40px; }
 .blog-post-meta { font-family: var(--font-dm-mono), monospace; font-size: 12px; color: var(--gold); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 16px; }
 .blog-post-title { font-family: var(--font-playfair), serif; font-size: clamp(28px, 4vw, 44px); font-weight: 900; color: var(--ink); line-height: 1.12; margin-bottom: 14px; }
 .blog-post-author { font-size: 14px; color: var(--muted); }

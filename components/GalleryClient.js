@@ -1,7 +1,14 @@
 "use client";
 
 import { useEffect, useMemo, useState, useCallback } from "react";
+import Image from "next/image";
 import { X, ChevronLeft, ChevronRight, Play } from "lucide-react";
+
+const isOptimizableImage = (item) =>
+  typeof item?.src === "string" &&
+  item.src.startsWith("/") &&
+  Number.isFinite(item.width) &&
+  Number.isFinite(item.height);
 
 export default function GalleryClient({ items }) {
   const categories = useMemo(() => {
@@ -79,7 +86,19 @@ export default function GalleryClient({ items }) {
                   </div>
                 </>
               ) : (
-                <img src={item.src} alt={item.caption || "NK Udada photo"} loading="lazy" />
+                isOptimizableImage(item) ? (
+                  <Image
+                    src={item.src}
+                    alt={item.caption || "NK Udada photo"}
+                    width={item.width}
+                    height={item.height}
+                    sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+                    quality={82}
+                    priority={i < 3}
+                  />
+                ) : (
+                  <img src={item.src} alt={item.caption || "NK Udada photo"} loading="lazy" />
+                )
               )}
               {item.caption ? (
                 <div className="gallery-card-overlay">{item.caption}</div>
@@ -122,7 +141,18 @@ export default function GalleryClient({ items }) {
             {active.type === "video" ? (
               <video src={active.src} controls autoPlay playsInline />
             ) : (
-              <img src={active.src} alt={active.caption || "NK Udada photo"} />
+              isOptimizableImage(active) ? (
+                <Image
+                  src={active.src}
+                  alt={active.caption || "NK Udada photo"}
+                  width={active.width}
+                  height={active.height}
+                  sizes="100vw"
+                  quality={86}
+                />
+              ) : (
+                <img src={active.src} alt={active.caption || "NK Udada photo"} />
+              )
             )}
             {active.caption && <div className="lightbox-caption">{active.caption}</div>}
           </div>

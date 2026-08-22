@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { marked } from "marked";
 import { ArrowLeft } from "lucide-react";
@@ -45,9 +46,20 @@ export default function BlogPostPage({ params }) {
         <div className="blog-post-author">By {post.author}</div>
       </div>
 
-      {post.coverImage && (
+      {post.coverImage && (post.coverImage.startsWith("/") ? (
+        <Image
+          src={post.coverImage}
+          alt={post.title}
+          className="blog-post-cover"
+          width={1920}
+          height={1280}
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          quality={86}
+          priority
+        />
+      ) : (
         <img src={post.coverImage} alt={post.title} className="blog-post-cover" />
-      )}
+      ))}
 
       <div className="blog-post-body" dangerouslySetInnerHTML={{ __html: html }} />
     </section>

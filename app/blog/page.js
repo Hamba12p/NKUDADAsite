@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllBlogPosts } from "@/lib/content";
 
 export const metadata = { title: "Blog — NK Udada Foundation" };
@@ -38,9 +39,20 @@ export default function BlogIndexPage() {
               className={`blog-card reveal reveal-delay-${(i % 4) + 1}`}
               key={post.slug}
             >
-              {post.coverImage && (
-                <img src={post.coverImage} alt={post.title} className="blog-card-image" />
-              )}
+              {post.coverImage && (post.coverImage.startsWith("/") ? (
+                <Image
+                  src={post.coverImage}
+                  alt={post.title}
+                  className="blog-card-image"
+                  width={1600}
+                  height={1000}
+                  sizes="(max-width: 700px) 100vw, (max-width: 1050px) 50vw, 33vw"
+                  quality={82}
+                  priority={i === 0}
+                />
+              ) : (
+                <img src={post.coverImage} alt={post.title} className="blog-card-image" loading="lazy" />
+              ))}
               <div className="blog-card-body">
                 <div className="blog-card-date">{formatDate(post.date)}</div>
                 <div className="blog-card-title">{post.title}</div>
