@@ -1,13 +1,3 @@
 {
-  "signups": [
-    {
-      "id": "7a1efeab-915e-405f-a4a1-ca9418425963",
-      "schoolName": "Codex Verification Secondary School",
-      "contactPerson": "Test Administrator",
-      "contact": "+256 700 000 000",
-      "studentCount": "142",
-      "preferredDates": "Term 2, 2027 — automated test",
-      "addedAt": "2026-08-22T15:29:37.015Z"
-    }
-  ]
+  "signups": []
 }
