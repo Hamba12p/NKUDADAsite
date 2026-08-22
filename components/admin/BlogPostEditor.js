@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Save, Trash2, CheckCircle2, AlertCircle } from "lucide-react";
 import { Field, FieldRow, Checkbox } from "./FormPrimitives";
+import ImagePreview from "./ImagePreview";
+import { resolveImageSource } from "@/lib/image-path";
 
 const emptyPost = {
   title: "",
@@ -30,12 +32,13 @@ export default function BlogPostEditor({ initialPost, mode }) {
     setStatus("saving");
     setMessage("");
     try {
+      const normalizedPost = { ...post, coverImage: resolveImageSource(post.coverImage) };
       const url = mode === "create" ? "/api/admin/blog" : `/api/admin/blog/${initialPost.slug}`;
       const method = mode === "create" ? "POST" : "PUT";
       const res = await fetch(url, {
         method,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(post)
+        body: JSON.stringify(normalizedPost)
       });
       const result = await res.json();
       if (!res.ok) {
@@ -43,6 +46,7 @@ export default function BlogPostEditor({ initialPost, mode }) {
         setMessage(result.error || "Save failed.");
         return;
       }
+      setPost(normalizedPost);
       setStatus("success");
       setMessage("Saved. Redirecting…");
       setTimeout(() => {
@@ -90,9 +94,10 @@ export default function BlogPostEditor({ initialPost, mode }) {
         )}
         <Field label="Excerpt (shown on the blog list page)" value={post.excerpt} textarea onChange={field("excerpt")} />
         <FieldRow>
-          <Field label="Cover image path" value={post.coverImage} onChange={field("coverImage")} />
+          <Field label="Cover image name, path or URL" value={post.coverImage} onChange={field("coverImage")} />
           <Field label="Author" value={post.author} onChange={field("author")} />
         </FieldRow>
+        <ImagePreview value={post.coverImage} alt={post.title ? `${post.title} cover preview` : "Blog cover preview"} />
         <FieldRow>
           <Field label="Date" type="date" value={post.date} onChange={field("date")} />
           <div style={{ display: "flex", alignItems: "center", marginTop: "22px" }}>
@@ -106,7 +111,7 @@ export default function BlogPostEditor({ initialPost, mode }) {
           onChange={field("body")}
         />
         <p style={{ fontSize: "12px", color: "var(--muted)" }}>
-          Cover image path examples: <code>/assets/images/IMG_5609.jpg</code> (an existing photo) or a full <code>https://</code> URL.
+          You can enter just an image filename such as <code>NK-B033.jpeg</code>, an asset path, or a full <code>https://</code> URL.
         </p>
       </div>
 

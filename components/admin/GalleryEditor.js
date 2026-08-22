@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { Save, CheckCircle2, AlertCircle, Trash2, Plus, ArrowUp, ArrowDown } from "lucide-react";
 import { Field, FieldRow, Card } from "./FormPrimitives";
+import ImagePreview from "./ImagePreview";
+import { resolveImageSource } from "@/lib/image-path";
 
 const emptyItem = { id: "", type: "image", src: "", caption: "", category: "" };
 
@@ -48,10 +50,16 @@ export default function GalleryEditor({ initialData }) {
     setStatus("saving");
     setMessage("");
     try {
+      const normalizedData = {
+        ...data,
+        items: data.items.map((item) => (
+          item.type === "image" ? { ...item, src: resolveImageSource(item.src) } : item
+        ))
+      };
       const res = await fetch("/api/admin/gallery", {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data)
+        body: JSON.stringify(normalizedData)
       });
       const result = await res.json();
       if (!res.ok) {
@@ -59,6 +67,7 @@ export default function GalleryEditor({ initialData }) {
         setMessage(result.error || "Save failed.");
         return;
       }
+      setData(normalizedData);
       setStatus("success");
       setMessage("Saved. Your site will rebuild and update in about a minute.");
     } catch {
@@ -96,7 +105,11 @@ export default function GalleryEditor({ initialData }) {
               <Trash2 size={15} />
             </button>
             <FieldRow>
-              <Field label="Source path or URL" value={item.src} onChange={(v) => updateItem(idx, "src", v)} />
+              <Field
+                label={item.type === "image" ? "Image filename, asset path or URL" : "Video asset path or URL"}
+                value={item.src}
+                onChange={(v) => updateItem(idx, "src", v)}
+              />
               <div className="admin-field">
                 <label>Type</label>
                 <select value={item.type} onChange={(e) => updateItem(idx, "type", e.target.value)}>
@@ -109,10 +122,7 @@ export default function GalleryEditor({ initialData }) {
               <Field label="Category" value={item.category} onChange={(v) => updateItem(idx, "category", v)} />
               <Field label="Caption (optional)" value={item.caption} onChange={(v) => updateItem(idx, "caption", v)} />
             </FieldRow>
-            {item.type === "image" && item.src && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={item.src} alt="" style={{ maxWidth: "160px", borderRadius: "8px", marginTop: "6px" }} />
-            )}
+            {item.type === "image" && <ImagePreview value={item.src} alt={item.caption || `Gallery image ${idx + 1} preview`} />}
           </div>
         ))}
         <button type="button" className="admin-add-btn" onClick={addItem}>
@@ -121,7 +131,7 @@ export default function GalleryEditor({ initialData }) {
         <p style={{ fontSize: "12px", color: "var(--muted)", marginTop: "12px" }}>
           To add a brand-new photo or video file, upload it to <code>public/assets/images</code> or{" "}
           <code>public/assets/videos</code> in the GitHub repo, then reference its path here (e.g.{" "}
-          <code>/assets/images/new-photo.jpg</code>).
+          <code>NK-B033.jpeg</code>). Image filenames are expanded to the correct asset path automatically.
         </p>
       </Card>
 

@@ -1,15 +1,17 @@
 "use client";
 
+import { useId } from "react";
 import { Plus, Trash2 } from "lucide-react";
 
 export function Field({ label, value, onChange, textarea, type = "text" }) {
+  const inputId = useId();
   return (
     <div className="admin-field">
-      <label>{label}</label>
+      <label htmlFor={inputId}>{label}</label>
       {textarea ? (
-        <textarea value={value ?? ""} onChange={(e) => onChange(e.target.value)} />
+        <textarea id={inputId} value={value ?? ""} onChange={(e) => onChange(e.target.value)} />
       ) : (
-        <input type={type} value={value ?? ""} onChange={(e) => onChange(e.target.value)} />
+        <input id={inputId} type={type} value={value ?? ""} onChange={(e) => onChange(e.target.value)} />
       )}
     </div>
   );
