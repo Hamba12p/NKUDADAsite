@@ -37,25 +37,25 @@
       }
     ],
     "highlightCard": {
-      "tag": "2025 Impact Highlight",
-      "title": "Mengo Social Centre Medical Camp",
-      "body": "A landmark day serving over 900 community members — led and coordinated by NK Udada Foundation in partnership with four major organisations.",
+      "tag": "✦ 2026 Impact Highlight",
+      "title": "Nakifuma Modern Secondary School Outreach",
+      "body": "Our first outreach built for secondary learners — 142 students across S.3 to S.6, reached in a single afternoon.",
       "items": [
         {
           "color": "purple",
-          "text": "HIV testing & counselling"
+          "text": "Goal setting & career guidance"
         },
         {
           "color": "green",
-          "text": "Family planning & reproductive health"
+          "text": "Reproductive health & menstrual wellbeing"
         },
         {
           "color": "gold",
-          "text": "Youth counselling & life skills"
+          "text": "Peer pressure & personal development"
         },
         {
           "color": "rust",
-          "text": "Free medication distribution"
+          "text": "Financial literacy basics"
         }
       ]
     },
@@ -68,7 +68,7 @@
       {
         "icon": "map-pin",
         "label": "Based in",
-        "value": "Kampala, Uganda"
+        "value": "Nakifuma, Uganda"
       }
     ]
   },
@@ -347,6 +347,21 @@
     "sdgTitle": "UN Sustainable Development Goals",
     "sdgs": [
       {
+        "num": "1",
+        "text": "No Poverty",
+        "cls": "s1"
+      },
+      {
+        "num": "2",
+        "text": "Zero Hunger",
+        "cls": "s2"
+      },
+      {
+        "num": "3",
+        "text": "Good Health & Wellbeing",
+        "cls": "s3"
+      },
+      {
         "num": "4",
         "text": "Quality Education",
         "cls": "s4"
@@ -357,9 +372,9 @@
         "cls": "s5"
       },
       {
-        "num": "3",
-        "text": "Good Health & Wellbeing",
-        "cls": "s3"
+        "num": "6",
+        "text": "Clean Water & Sanitation",
+        "cls": "s6"
       }
     ],
     "donateTitle": "Support Our Work",
@@ -409,6 +424,10 @@
       {
         "label": "Blog",
         "href": "/blog"
+      },
+      {
+        "label": "Schools",
+        "href": "/schools"
       }
     ],
     "cta": {

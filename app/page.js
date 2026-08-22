@@ -1,5 +1,7 @@
+import React from "react";
+import LatestOrb from "@/components/LatestOrb.client";
 import Link from "next/link";
-import { getSiteContent } from "@/lib/content";
+import { getSiteContent, getAllBlogPosts } from "@/lib/content";
 import { Icon } from "@/components/icons";
 import { ArrowRight } from "lucide-react";
 
@@ -11,7 +13,10 @@ const DOT_COLOR = {
 };
 
 export default function HomePage() {
-  const { hero, impact } = getSiteContent();
+  const site = getSiteContent();
+  const { hero, impact } = site;
+  const posts = getAllBlogPosts();
+  const latest = posts && posts.length ? posts[0] : null;
 
   return (
     <>
@@ -68,19 +73,39 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
-            {hero.floatBadges.map((badge, i) => (
-              <div className={`hero-card-float f${i + 1}`} key={badge.label}>
-                <span className="fi">
-                  <Icon name={badge.icon} size={20} />
-                </span>
-                <div>
-                  <div style={{ fontSize: "11px", color: "var(--muted)", marginBottom: "2px" }}>
-                    {badge.label}
+            {hero.floatBadges.map((badge, i) => {
+              const isBased = badge.label && badge.label.toLowerCase().includes('based');
+              const floatClass = `hero-card-float f${i + 1}` + (isBased ? ' badge-collapse' : '');
+              return isBased ? (
+                <button key={badge.label} type="button" className={floatClass} title={`${badge.label}: ${badge.value}`}>
+                  <span className="fi">
+                    <Icon name={badge.icon} size={20} />
+                  </span>
+                  <div className="label-wrap">
+                    <div style={{ fontSize: "11px", color: "var(--muted)", marginBottom: "2px" }}>
+                      {badge.label}
+                    </div>
+                    <div>{badge.value}</div>
                   </div>
-                  <div>{badge.value}</div>
+                </button>
+              ) : (
+                <div className={floatClass} key={badge.label}>
+                  <span className="fi">
+                    <Icon name={badge.icon} size={20} />
+                  </span>
+                  <div>
+                    <div style={{ fontSize: "11px", color: "var(--muted)", marginBottom: "2px" }}>
+                      {badge.label}
+                    </div>
+                    <div>{badge.value}</div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
+
+            {latest && (
+              <LatestOrb latest={latest} />
+            )}
           </div>
         </div>
       </section>
