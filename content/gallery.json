@@ -4,39 +4,305 @@
   "subtitle": "A selection of photos and short clips from our programmes, community days, and outreach efforts.",
   "note": "Videos are muted by default. Click to enable audio and fullscreen playback.",
   "items": [
-    { "id": "nk-a001", "type": "image", "src": "/assets/images/NK-A001.jpg", "caption": "", "category": "Community" },
-    { "id": "nk-a002", "type": "image", "src": "/assets/images/NK-A002.jpg", "caption": "", "category": "Community" },
-    { "id": "nk-a003", "type": "image", "src": "/assets/images/NK-A003.jpg", "caption": "", "category": "Outreach" },
-    { "id": "nk-a004", "type": "image", "src": "/assets/images/NK-A004.jpg", "caption": "", "category": "Outreach" },
-    { "id": "nk-a005", "type": "image", "src": "/assets/images/NK-A005.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-a006", "type": "image", "src": "/assets/images/NK-A006.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-a007", "type": "image", "src": "/assets/images/NK-A007.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-a008", "type": "image", "src": "/assets/images/NK-A008.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-a009", "type": "image", "src": "/assets/images/NK-A009.jpg", "caption": "", "category": "Team" },
-    { "id": "nk-b010", "type": "image", "src": "/assets/images/NK-B010.jpg", "caption": "", "category": "Community" },
-    { "id": "nk-b011", "type": "image", "src": "/assets/images/NK-B011.jpg", "caption": "", "category": "Community" },
-    { "id": "nk-b012", "type": "image", "src": "/assets/images/NK-B012.jpg", "caption": "", "category": "Community" },
-    { "id": "nk-b013", "type": "image", "src": "/assets/images/NK-B013.jpeg", "caption": "", "category": "Community" },
-    { "id": "nk-b014", "type": "image", "src": "/assets/images/NK-B014.jpg", "caption": "", "category": "Outreach" },
-    { "id": "nk-b015", "type": "image", "src": "/assets/images/NK-B015.jpg", "caption": "", "category": "Outreach" },
-    { "id": "nk-b016", "type": "image", "src": "/assets/images/NK-B016.jpg", "caption": "", "category": "Outreach" },
-    { "id": "nk-b017", "type": "image", "src": "/assets/images/NK-B017.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b018", "type": "image", "src": "/assets/images/NK-B018.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b019", "type": "image", "src": "/assets/images/NK-B019.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b020", "type": "image", "src": "/assets/images/NK-B020.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b021", "type": "image", "src": "/assets/images/NK-B021.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b022", "type": "image", "src": "/assets/images/NK-B022.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b023", "type": "image", "src": "/assets/images/NK-B023.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b024", "type": "image", "src": "/assets/images/NK-B024.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b025", "type": "image", "src": "/assets/images/NK-B025.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b026", "type": "image", "src": "/assets/images/NK-B026.jpg", "caption": "", "category": "Medical Camp" },
-    { "id": "nk-b027", "type": "image", "src": "/assets/images/NK-B027.jpg", "caption": "", "category": "Team" },
-    { "id": "nk-b028", "type": "image", "src": "/assets/images/NK-B028.jpg", "caption": "", "category": "Team" },
-    { "id": "nk-b029", "type": "image", "src": "/assets/images/NK-B029.jpg", "caption": "", "category": "Team" },
-    { "id": "nk-b030", "type": "image", "src": "/assets/images/NK-B030.jpg", "caption": "", "category": "Team" },
-    { "id": "nk-b031", "type": "image", "src": "/assets/images/NK-B031.jpeg", "caption": "", "category": "Team" },
-    { "id": "vid-2856", "type": "video", "src": "/assets/videos/IMG_2856.mp4", "caption": "", "category": "Community" },
-    { "id": "vid-5631", "type": "video", "src": "/assets/videos/IMG_5631.mp4", "caption": "", "category": "Medical Camp" },
-    { "id": "vid-9b47", "type": "video", "src": "/assets/videos/9B4727BC-9F9C-4F0B-B799-C6F2D4B106B5.mp4", "caption": "", "category": "Outreach" }
+    {
+      "id": "nk-a001",
+      "type": "image",
+      "src": "/assets/images/NK-A001.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Community"
+    },
+    {
+      "id": "nk-a002",
+      "type": "image",
+      "src": "/assets/images/NK-A002.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Community"
+    },
+    {
+      "id": "nk-a003",
+      "type": "image",
+      "src": "/assets/images/NK-A003.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a004",
+      "type": "image",
+      "src": "/assets/images/NK-A004.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a005",
+      "type": "image",
+      "src": "/assets/images/NK-A005.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a006",
+      "type": "image",
+      "src": "/assets/images/NK-A006.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a007",
+      "type": "image",
+      "src": "/assets/images/NK-A007.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a008",
+      "type": "image",
+      "src": "/assets/images/NK-A008.jpg",
+      "width": 1079,
+      "height": 1920,
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "nk-a009",
+      "type": "image",
+      "src": "/assets/images/NK-A009.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Team"
+    },
+    {
+      "id": "nk-b010",
+      "type": "image",
+      "src": "/assets/images/NK-B010.jpg",
+      "width": 1280,
+      "height": 1920,
+      "caption": "",
+      "category": "Community"
+    },
+    {
+      "id": "nk-b011",
+      "type": "image",
+      "src": "/assets/images/NK-B011.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b012",
+      "type": "image",
+      "src": "/assets/images/NK-B012.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b013",
+      "type": "image",
+      "src": "/assets/images/NK-B013.jpeg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b014",
+      "type": "image",
+      "src": "/assets/images/NK-B014.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b015",
+      "type": "image",
+      "src": "/assets/images/NK-B015.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b016",
+      "type": "image",
+      "src": "/assets/images/NK-B016.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b017",
+      "type": "image",
+      "src": "/assets/images/NK-B017.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b018",
+      "type": "image",
+      "src": "/assets/images/NK-B018.jpg",
+      "width": 1920,
+      "height": 1280,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b019",
+      "type": "image",
+      "src": "/assets/images/NK-B019.jpg",
+      "width": 1920,
+      "height": 1080,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b020",
+      "type": "image",
+      "src": "/assets/images/NK-B020.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b021",
+      "type": "image",
+      "src": "/assets/images/NK-B021.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b022",
+      "type": "image",
+      "src": "/assets/images/NK-B022.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b023",
+      "type": "image",
+      "src": "/assets/images/NK-B023.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b024",
+      "type": "image",
+      "src": "/assets/images/NK-B024.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b025",
+      "type": "image",
+      "src": "/assets/images/NK-B025.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b026",
+      "type": "image",
+      "src": "/assets/images/NK-B026.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b027",
+      "type": "image",
+      "src": "/assets/images/NK-B027.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Team"
+    },
+    {
+      "id": "nk-b028",
+      "type": "image",
+      "src": "/assets/images/NK-B028.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b029",
+      "type": "image",
+      "src": "/assets/images/NK-B029.jpg",
+      "width": 1920,
+      "height": 1440,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b030",
+      "type": "image",
+      "src": "/assets/images/NK-B030.jpg",
+      "width": 1440,
+      "height": 1920,
+      "caption": "",
+      "category": "Outreach"
+    },
+    {
+      "id": "nk-b031",
+      "type": "image",
+      "src": "/assets/images/NK-B031.jpeg",
+      "width": 1649,
+      "height": 1920,
+      "caption": "",
+      "category": "Team"
+    },
+    {
+      "id": "vid-2856",
+      "type": "video",
+      "src": "/assets/videos/IMG_2856.mp4",
+      "caption": "",
+      "category": "Community"
+    },
+    {
+      "id": "vid-5631",
+      "type": "video",
+      "src": "/assets/videos/IMG_5631.mp4",
+      "caption": "",
+      "category": "Medical Camp"
+    },
+    {
+      "id": "vid-9b47",
+      "type": "video",
+      "src": "/assets/videos/9B4727BC-9F9C-4F0B-B799-C6F2D4B106B5.mp4",
+      "caption": "",
+      "category": "Outreach"
+    }
   ]
 }
