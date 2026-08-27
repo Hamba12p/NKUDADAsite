@@ -1,5 +1,5 @@
 import "./globals.css";
-import { DM_Mono, DM_Sans, Playfair_Display } from "next/font/google";
+import { Allura, DM_Mono, DM_Sans, Playfair_Display } from "next/font/google";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import RevealObserver from "@/components/RevealObserver";
@@ -26,6 +26,12 @@ const dmMono = DM_Mono({
   weight: ["400", "500"]
 });
 
+const allura = Allura({
+  subsets: ["latin"],
+  variable: "--font-allura",
+  weight: "400"
+});
+
 export async function generateMetadata() {
   const { meta } = getSiteContent();
   return {
@@ -49,7 +55,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${dmSans.variable} ${dmMono.variable}`}
+      className={`${playfair.variable} ${dmSans.variable} ${dmMono.variable} ${allura.variable}`}
     >
       <body>
         <Nav nav={site.nav} meta={site.meta} />

@@ -95,27 +95,55 @@
 .heroAccent {
   position: absolute;
   z-index: 0;
-  width: 70%;
-  height: 58%;
-  right: -4%;
-  top: 22%;
-  border-radius: 44% 56% 45% 55%;
-  background: var(--gold);
-  transform: rotate(-11deg);
-  opacity: .92;
+  width: 72%;
+  height: 18%;
+  right: -3%;
+  top: 31%;
+  background: linear-gradient(90deg, rgba(234,81,157,.72), var(--gold) 18%, #f43f8f 84%, rgba(244,63,143,.38));
+  clip-path: polygon(2% 25%, 9% 10%, 19% 19%, 30% 3%, 42% 15%, 57% 6%, 70% 17%, 84% 4%, 100% 22%, 96% 76%, 84% 88%, 71% 78%, 59% 96%, 45% 83%, 30% 94%, 18% 79%, 5% 91%);
+  transform: rotate(-14deg);
+  opacity: .95;
   filter: saturate(1.08);
 }
 
+.heroAccent::before,
 .heroAccent::after {
   content: "";
   position: absolute;
-  width: 78%;
-  height: 22%;
-  right: -10%;
-  bottom: -9%;
-  border-radius: 999px;
-  background: var(--gold);
-  transform: rotate(17deg);
+  left: 10%;
+  width: 92%;
+  height: 100%;
+  background: inherit;
+  clip-path: inherit;
+}
+
+.heroAccent::before {
+  top: 118%;
+  transform: rotate(23deg) scaleX(.92);
+  opacity: .88;
+}
+
+.heroAccent::after {
+  top: 238%;
+  left: 2%;
+  transform: rotate(8deg) scaleX(1.05);
+  opacity: .76;
+}
+
+.heroScript {
+  position: absolute;
+  z-index: 4;
+  left: -4%;
+  top: 49%;
+  color: #f13f8c;
+  font-family: var(--font-allura), cursive;
+  font-size: clamp(102px, 11vw, 172px);
+  font-weight: 400;
+  line-height: .55;
+  letter-spacing: -.12em;
+  transform: rotate(-8deg);
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+  pointer-events: none;
 }
 
 .imageFrame { position: relative; width: 100%; aspect-ratio: 4 / 5; overflow: hidden; background: var(--store-soft); }
@@ -123,8 +151,8 @@
 .heroImage { position: absolute; z-index: 2; inset: 0; height: 100%; aspect-ratio: auto; background: transparent; }
 .heroImage img {
   object-fit: contain;
-  object-position: 58% bottom;
-  transform: translateX(3%) scale(.9);
+  object-position: 60% bottom;
+  transform: translateX(4%) scale(.94);
   transform-origin: center bottom;
 }
 .heroStamp {
@@ -284,6 +312,7 @@
   .heroDrop { display: none; }
   .heroVisual { width: min(520px, 100%); min-height: 470px; margin: 0 auto; }
   .heroImage img { object-position: center bottom; transform: scale(.92); }
+  .heroScript { left: 1%; top: 51%; font-size: clamp(96px, 27vw, 142px); }
   .heroStamp { right: 2px; }
   .collection { padding-left: 5vw; padding-right: 5vw; }
   .storeBar { min-height: 82px; }
@@ -300,7 +329,8 @@
   .hero { padding-top: 92px; }
   .hero h1 { font-size: 20.5vw; line-height: .84; }
   .heroVisual { min-height: 390px; }
-  .heroAccent { width: 78%; right: -8%; }
+  .heroAccent { width: 80%; right: -10%; top: 29%; }
+  .heroScript { left: -1%; top: 52%; }
   .storeBar { top: 68px; }
   .storeBar .microLabel { display: none; }
   .storeBar strong { max-width: 145px; font-size: 16px; line-height: 1.05; }

@@ -202,6 +202,7 @@ function StoreExperience({ store, siteName }) {
         </div>
         <div className={styles.heroVisual}>
           <div className={styles.heroAccent} aria-hidden="true" />
+          <span className={styles.heroScript} aria-hidden="true">nk</span>
           <ProductImage src={heroImage} alt={`${siteName} store model`} priority className={styles.heroImage} />
           <span className={styles.heroStamp}>PURPOSE<br />IN EVERY<br />PIECE</span>
         </div>

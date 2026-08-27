@@ -2,7 +2,7 @@ import { getSiteContent, getStorefrontContent } from "@/lib/content";
 import StoreClient from "./StoreClient";
 
 export const metadata = {
-  title: "NK Store — NK Udada Foundation",
+  title: "Udada Store — NK Udada Foundation",
   description: "Wear the mission and support NK Udada Foundation programs with every purchase."
 };
 
