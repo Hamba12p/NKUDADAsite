@@ -12,6 +12,8 @@ const DOT_COLOR = {
   rust: "var(--rust)"
 };
 
+const IMPACT_ICONS = ["users", "hand-heart", "heart-pulse"];
+
 export default function HomePage() {
   const site = getSiteContent();
   const { hero, impact } = site;
@@ -122,20 +124,29 @@ export default function HomePage() {
         <div className="impact-grid">
           {impact.cards.map((card, i) => (
             <div className={`impact-card c${i + 1} reveal reveal-delay-${i + 1}`} key={card.label}>
+              <div className="impact-card-tab" aria-hidden="true">
+                <Icon name={IMPACT_ICONS[i]} size={17} strokeWidth={1.8} />
+                <span>{String(i + 1).padStart(2, "0")}</span>
+              </div>
               <div className="impact-num">
                 {card.num}
-                <sup style={{ fontSize: ".45em" }}>{card.suffix}</sup>
+                <sup>{card.suffix}</sup>
               </div>
               <div className="impact-label">{card.label}</div>
               <div className="impact-desc">{card.desc}</div>
             </div>
           ))}
           <div className="impact-card impact-event reveal">
-            <div>
+            <div className="impact-card-tab impact-event-tab" aria-hidden="true">
+              <Icon name="handshake" size={17} strokeWidth={1.8} />
+              <span>04</span>
+            </div>
+            <div className="impact-event-story">
+              <span className="impact-event-kicker">Partnership field note</span>
               <div className="impact-num">{impact.event.num}</div>
               <div className="impact-label">{impact.event.label}</div>
               <div className="impact-desc">{impact.event.desc}</div>
-              <div className="impact-event-partners" style={{ marginTop: "16px" }}>
+              <div className="impact-event-partners">
                 {impact.event.partners.map((p) => (
                   <span key={p}>{p}</span>
                 ))}
