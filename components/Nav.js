@@ -9,7 +9,7 @@ export default function Nav({ nav, meta }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const logoSrc = pathname === "/schools" ? "/Logo2.png" : "/Logo.jpeg";
+  const logoSrc = pathname === "/schools" || pathname === "/store" ? "/Logo2.png" : "/Logo.jpeg";
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);

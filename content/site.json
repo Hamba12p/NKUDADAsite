@@ -428,6 +428,10 @@
       {
         "label": "Schools",
         "href": "/schools"
+      },
+      {
+        "label": "Store",
+        "href": "/store"
       }
     ],
     "cta": {

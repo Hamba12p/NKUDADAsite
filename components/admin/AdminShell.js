@@ -2,13 +2,14 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { LayoutDashboard, FileText, Newspaper, Images, Users, LogOut } from "lucide-react";
+import { LayoutDashboard, FileText, Newspaper, Images, Users, ShoppingBag, LogOut } from "lucide-react";
 
 const NAV = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard, exact: true },
   { href: "/admin/site", label: "Site Content", icon: FileText },
   { href: "/admin/blog", label: "Blog Posts", icon: Newspaper },
   { href: "/admin/gallery", label: "Gallery", icon: Images },
+  { href: "/admin/store", label: "Store", icon: ShoppingBag },
   { href: "/admin/outreach", label: "Outreach", icon: Users }
 ];
 
