@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "tag": "NK UDADA STORE",
+    "title": "UDADA STORE",
+    "subtitle": "Wear the mission.",
+    "whatsappNumber": "256776866921",
+    "instagramHandle": "thenkfoundation_",
+    "instagramUrl": "https://instagram.com/thenkfoundation_",
+    "heroImage": "/storefront/Model.png",
+    "note": "Every purchase supports NK Udada Foundation programs."
+  },
+  "items": [
+    {
+      "id": "nk-tee-001",
+      "name": "Classic Logo Tee",
+      "category": "Tees",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Carry the NK Udada mission with you in a soft everyday tee made for showing up.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-tee-002",
+      "name": "Empower & Equip Statement Tee",
+      "category": "Tees",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "A bold reminder that every young person deserves the tools and confidence to thrive.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-tee-003",
+      "name": "Ankara-Trim Tee",
+      "category": "Tees",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "A joyful foundation tee finished with a vibrant Ankara detail and unmistakable Ugandan spirit.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-hoodie-001",
+      "name": "Foundation Crewneck Hoodie",
+      "category": "Hoodies",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Warm, easy and purpose-led for cool mornings, volunteer days and everywhere between.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-cap-001",
+      "name": "Dad Cap (embroidered logo)",
+      "category": "Caps",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A relaxed everyday cap embroidered with the mark of a community that believes in girls.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-tote-001",
+      "name": "Canvas Tote Bag",
+      "category": "Totes",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A roomy reusable carryall for books, market days and the everyday work of making change.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-tote-002",
+      "name": "Drawstring Bag",
+      "category": "Totes",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "Lightweight and ready to move, from school outreach sessions to weekend adventures.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-accessory-001",
+      "name": "Reusable Water Bottle",
+      "category": "Accessories",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A practical daily companion that keeps hydration close and single-use plastic out.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-accessory-002",
+      "name": "Enamel Pin Set",
+      "category": "Accessories",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "Small symbols of courage, community and possibility to wear wherever you go.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-accessory-003",
+      "name": "Support Wristband",
+      "category": "Accessories",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A simple, bright show of solidarity with girls building confident futures.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-accessory-004",
+      "name": "Branded Notebook",
+      "category": "Accessories",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A place for plans, lessons and the first brave draft of your next big idea.",
+      "image": "",
+      "shareImage": "",
+      "inStock": true
+    }
+  ]
+}
