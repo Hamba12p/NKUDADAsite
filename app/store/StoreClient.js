@@ -47,11 +47,12 @@ function ProductImage({ src, alt, priority = false, className = "" }) {
     );
   }
 
+  const isLocalImage = resolved.startsWith("/");
+
   return (
     <div className={`${styles.imageFrame} ${className}`}>
       <Image
-        loader={imageLoader}
-        unoptimized
+        {...(!isLocalImage ? { loader: imageLoader, unoptimized: true } : {})}
         src={resolved}
         alt={alt}
         fill

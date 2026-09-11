@@ -23,7 +23,7 @@
         "XL"
       ],
       "description": "Carry the NK Udada mission with you in a soft everyday tee made for showing up.",
-      "image": "",
+      "image": "/storefront/item-01-classic-logo-tee-white-centered.png",
       "shareImage": "",
       "inStock": true
     },
@@ -40,7 +40,7 @@
         "XL"
       ],
       "description": "A bold reminder that every young person deserves the tools and confidence to thrive.",
-      "image": "",
+      "image": "/storefront/item-02-empower-equip-statement-polo-front-back.png",
       "shareImage": "",
       "inStock": true
     },
@@ -57,7 +57,7 @@
         "XL"
       ],
       "description": "A joyful foundation tee finished with a vibrant Ankara detail and unmistakable Ugandan spirit.",
-      "image": "",
+      "image": "/storefront/item-03-empowered-men-empower-women-quote-tee.png",
       "shareImage": "",
       "inStock": true
     },
@@ -74,7 +74,7 @@
         "XL"
       ],
       "description": "Warm, easy and purpose-led for cool mornings, volunteer days and everywhere between.",
-      "image": "",
+      "image": "/storefront/item-04-foundation-crewneck-hoodie-front-back.png",
       "shareImage": "",
       "inStock": true
     },
@@ -86,7 +86,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "A relaxed everyday cap embroidered with the mark of a community that believes in girls.",
-      "image": "",
+      "image": "/storefront/item-05-dad-cap-front-back.png",
       "shareImage": "",
       "inStock": true
     },
@@ -98,7 +98,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "A roomy reusable carryall for books, market days and the everyday work of making change.",
-      "image": "",
+      "image": "/storefront/item-06-canvas-tote-bag-front-back.png",
       "shareImage": "",
       "inStock": true
     },
@@ -110,7 +110,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "Lightweight and ready to move, from school outreach sessions to weekend adventures.",
-      "image": "",
+      "image": "/storefront/item-07-drawstring-bag-front-back.png",
       "shareImage": "",
       "inStock": true
     },
@@ -122,7 +122,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "A practical daily companion that keeps hydration close and single-use plastic out.",
-      "image": "",
+      "image": "/storefront/item-08-reusable-water-bottle.png",
       "shareImage": "",
       "inStock": true
     },
@@ -134,7 +134,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "Small symbols of courage, community and possibility to wear wherever you go.",
-      "image": "",
+      "image": "/storefront/item-09-enamel-pin-set.png",
       "shareImage": "",
       "inStock": true
     },
@@ -146,7 +146,7 @@
       "currency": "UGX",
       "sizes": [],
       "description": "A simple, bright show of solidarity with girls building confident futures.",
-      "image": "",
+      "image": "/storefront/item-10-support-wristband.png",
       "shareImage": "",
       "inStock": true
     },
@@ -158,7 +158,19 @@
       "currency": "UGX",
       "sizes": [],
       "description": "A place for plans, lessons and the first brave draft of your next big idea.",
-      "image": "",
+      "image": "/storefront/item-11-branded-notebook-spiral.png",
+      "shareImage": "",
+      "inStock": true
+    },
+    {
+      "id": "nk-accessory-005",
+      "name": "Coffee Mug",
+      "category": "Accessories",
+      "price": null,
+      "currency": "UGX",
+      "sizes": [],
+      "description": "A white coffee mug featuring the NK Udada Foundation logo.",
+      "image": "/storefront/extra-coffee-mug.png",
       "shareImage": "",
       "inStock": true
     }

@@ -418,6 +418,10 @@
         "href": "/gallery"
       },
       {
+        "label": "Feedback",
+        "href": "/feedback"
+      },
+      {
         "label": "Team",
         "href": "/team"
       },

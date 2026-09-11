@@ -1,9 +1,10 @@
 import React from "react";
 import LatestOrb from "@/components/LatestOrb.client";
 import Link from "next/link";
-import { getSiteContent, getAllBlogPosts } from "@/lib/content";
+import { getSiteContent, getAllBlogPosts, getFeedbackContent } from "@/lib/content";
 import { Icon } from "@/components/icons";
 import { ArrowRight } from "lucide-react";
+import FeedbackMarquee from "@/components/FeedbackMarquee";
 
 const DOT_COLOR = {
   purple: "var(--purple)",
@@ -19,6 +20,11 @@ export default function HomePage() {
   const { hero, impact } = site;
   const posts = getAllBlogPosts();
   const latest = posts && posts.length ? posts[0] : null;
+  const feedback = getFeedbackContent();
+  const featuredFeedback = [
+    ...feedback.photoEntries.filter((entry) => entry.featuredOnHomepage),
+    ...feedback.submissions.filter((entry) => entry.approved && entry.featuredOnHomepage)
+  ].sort((a, b) => new Date(b.addedAt || b.approvedAt || b.submittedAt) - new Date(a.addedAt || a.approvedAt || a.submittedAt));
 
   return (
     <>
@@ -159,6 +165,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FeedbackMarquee entries={featuredFeedback} />
 
       <section id="explore">
         <span className="section-tag reveal">Explore</span>

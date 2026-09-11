@@ -1,7 +1,7 @@
 import Link from "next/link";
 import AdminShell from "@/components/admin/AdminShell";
-import { getAllBlogPosts, getGalleryContent, getOutreachContent } from "@/lib/content";
-import { FileText, Newspaper, Images, Users, ArrowUpRight } from "lucide-react";
+import { getAllBlogPosts, getGalleryContent, getOutreachContent, getFeedbackContent } from "@/lib/content";
+import { FileText, Newspaper, Images, Users, MessageSquareHeart, ArrowUpRight } from "lucide-react";
 
 export const metadata = { title: "Admin Dashboard" };
 
@@ -9,6 +9,7 @@ export default function AdminDashboardPage() {
   const posts = getAllBlogPosts({ includeUnpublished: true });
   const gallery = getGalleryContent();
   const outreach = getOutreachContent();
+  const feedback = getFeedbackContent();
   const outreachStats = outreach.students.reduce(
     (acc, s) => {
       acc.total += 1;
@@ -62,6 +63,14 @@ export default function AdminDashboardPage() {
           <p style={{ fontSize: "13px", color: "var(--muted)" }}>{gallery.items.length} item{gallery.items.length === 1 ? "" : "s"} — captions, categories, and order.</p>
           <div style={{ marginTop: "14px", fontSize: "12px", color: "var(--purple)", display: "flex", alignItems: "center", gap: "4px" }}>
             Manage gallery <ArrowUpRight size={13} />
+          </div>
+        </Link>
+        <Link href="/admin/feedback" className="admin-card" style={{ textDecoration: "none", display: "block" }}>
+          <MessageSquareHeart size={22} color="var(--purple)" />
+          <div className="admin-card-title" style={{ marginTop: "14px", marginBottom: "6px" }}>Feedback</div>
+          <p style={{ fontSize: "13px", color: "var(--muted)" }}>{feedback.photoEntries.length} photo note{feedback.photoEntries.length === 1 ? "" : "s"} · {feedback.submissions.filter((entry) => !entry.approved).length} awaiting review.</p>
+          <div style={{ marginTop: "14px", fontSize: "12px", color: "var(--purple)", display: "flex", alignItems: "center", gap: "4px" }}>
+            Manage feedback <ArrowUpRight size={13} />
           </div>
         </Link>
         <Link href="/admin/outreach" className="admin-card" style={{ textDecoration: "none", display: "block" }}>

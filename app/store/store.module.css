@@ -252,6 +252,7 @@
 .productCard:hover { transform: translateY(-5px); box-shadow: 9px 10px 0 rgba(234,81,157,.16); }
 .productVisual { position: relative; overflow: hidden; background: var(--store-soft); }
 .productVisual > .imageFrame, .productVisual > .imagePlaceholder { aspect-ratio: 4 / 4.45; }
+.productVisual > .imageFrame img { object-fit: contain; }
 .imagePlaceholder { width: 100%; aspect-ratio: 4 / 5; display: grid; place-items: center; align-content: center; gap: 12px; color: #858085; background: linear-gradient(145deg, #f3f0f2, #e8e3e7); }
 .imagePlaceholder span { width: 62px; height: 62px; display: grid; place-items: center; border: 1px solid #cbc4c9; border-radius: 50%; }
 .imagePlaceholder small { font: 500 9px/1 var(--font-dm-mono), monospace; letter-spacing: .08em; text-transform: uppercase; }

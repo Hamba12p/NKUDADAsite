@@ -21,10 +21,10 @@ export function FieldRow({ children }) {
   return <div className="admin-field-row">{children}</div>;
 }
 
-export function Checkbox({ label, checked, onChange }) {
+export function Checkbox({ label, checked, onChange, disabled = false }) {
   return (
-    <label className="admin-checkbox-row">
-      <input type="checkbox" checked={!!checked} onChange={(e) => onChange(e.target.checked)} />
+    <label className={`admin-checkbox-row${disabled ? " disabled" : ""}`}>
+      <input type="checkbox" checked={!!checked} disabled={disabled} onChange={(e) => onChange(e.target.checked)} />
       {label}
     </label>
   );
