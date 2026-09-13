@@ -19,7 +19,7 @@
       "anonymous": true,
       "role": "volunteer",
       "approved": true,
-      "featuredOnHomepage": false,
+      "featuredOnHomepage": true,
       "submittedAt": "2026-09-13T09:36:53.794Z",
       "approvedAt": "2026-09-13T09:38:44.504Z"
     }
