@@ -7,19 +7,10 @@
       "name": "",
       "anonymous": true,
       "role": "volunteer",
-      "approved": false,
+      "approved": true,
       "featuredOnHomepage": false,
-      "submittedAt": "2026-09-03T10:13:01.002Z"
-    },
-    {
-      "id": "669e8d7e-f8d8-483e-a294-9ae44c06ef27",
-      "message": "NK UDADA has shown us what personal drive and determination can achieve. We've already touched the lives of many young people across Kampala, and our hope is to extend that impact countrywide, because we believe change is inevitable, so we'd rather help shape it than be swept along by it.",
-      "name": "",
-      "anonymous": true,
-      "role": "volunteer",
-      "approved": false,
-      "featuredOnHomepage": false,
-      "submittedAt": "2026-09-13T09:26:19.743Z"
+      "submittedAt": "2026-09-03T10:13:01.002Z",
+      "approvedAt": "2026-09-13T09:26:46.277Z"
     }
   ]
 }
