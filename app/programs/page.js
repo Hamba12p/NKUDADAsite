@@ -1,7 +1,7 @@
 import { getSiteContent } from "@/lib/content";
 import { Icon } from "@/components/icons";
 
-export const metadata = { title: "Programs — NK Udada Foundation" };
+export const metadata = { title: "Programmes — NK Udada Foundation" };
 
 export default function ProgramsPage() {
   const { programs } = getSiteContent();

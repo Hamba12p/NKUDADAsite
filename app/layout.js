@@ -45,6 +45,10 @@ export async function generateMetadata() {
       images: ["/Logo.jpeg"],
       type: "website"
     },
+    twitter: {
+      title: meta.siteName,
+      description: meta.description
+    },
     icons: { icon: "/Logo.jpeg" }
   };
 }

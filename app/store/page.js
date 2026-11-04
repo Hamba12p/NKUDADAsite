@@ -3,7 +3,7 @@ import StoreClient from "./StoreClient";
 
 export const metadata = {
   title: "Udada Store — NK Udada Foundation",
-  description: "Wear the mission and support NK Udada Foundation programs with every purchase."
+  description: "Wear the mission and support NK Udada Foundation programmes with every purchase."
 };
 
 export default function StorePage() {

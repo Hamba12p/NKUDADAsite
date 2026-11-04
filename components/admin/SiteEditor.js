@@ -176,7 +176,7 @@ export default function SiteEditor({ initialData }) {
         />
       </Card>
 
-      <Card title="Programs">
+      <Card title="Programmes">
         <Field label="Section tag" value={data.programs.tag} onChange={update(["programs", "tag"])} />
         <FieldRow>
           <Field label="Title line" value={data.programs.titleLine1} onChange={update(["programs", "titleLine1"])} />
