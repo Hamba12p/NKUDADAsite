@@ -3,14 +3,14 @@
     "siteName": "NK Udada Foundation",
     "tagline": "Empower & Equip · Uganda",
     "title": "NK Udada Foundation — Empower & Equip",
-    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, menstrual health, life skills, and community. Empower and Equip."
+    "description": "NK Udada Foundation is a youth-led nonprofit in Uganda empowering young people through education, menstrual health, digital skills, life skills, and community. Empower and Equip."
   },
   "hero": {
     "eyebrow": "Youth-Led · Uganda · Est. 2024",
     "titleLine1": "Empowering",
     "titleLine2": "Uganda's next",
     "titleLine3": "generation",
-    "subtitle": "NK Udada Foundation is a youth-founded nonprofit in Uganda equipping both young women and young men with education, health resources, life skills, and community — because when we invest in both genders, we multiply potential.",
+    "subtitle": "NK Udada Foundation is a youth-founded nonprofit in Uganda equipping both young women and young men with education, health resources, digital skills, life skills, and community, because when we invest in both genders, we multiply potential.",
     "primaryCta": {
       "label": "Join as Volunteer",
       "href": "/volunteer"
@@ -102,6 +102,11 @@
         "icon": "megaphone",
         "title": "Advocacy & Awareness",
         "desc": "Challenging harmful norms and amplifying youth voices in communities and policy spaces."
+      },
+      {
+        "icon": "monitor",
+        "title": "Digital Literacy",
+        "desc": "Building confidence with computers at the NK Udada Hub, from first-time basics to web development and graphics and design."
       }
     ]
   },
@@ -146,7 +151,7 @@
   },
   "programs": {
     "tag": "What We Offer",
-    "titleLine1": "Programs built",
+    "titleLine1": "Programmes built",
     "titleEm": "for every young person",
     "subtitle": "Our work is holistic and inclusive — designed to serve both young women and men in Uganda's under-resourced communities.",
     "featured": {
@@ -191,6 +196,17 @@
           "Medical Camps",
           "HIV Testing",
           "Family Planning"
+        ]
+      },
+      {
+        "icon": "monitor",
+        "sdg": "SDG 4 · SDG 8",
+        "title": "Digital Literacy Programme",
+        "desc": "Hands-on computer classes at the NK Udada Hub in Kampala, from first-time basics to web development and graphics and design. Young people learn at their own level, on a real computer, with volunteer instructors beside them.",
+        "tags": [
+          "Computer Basics",
+          "Web Development",
+          "Graphics & Design"
         ]
       }
     ]
@@ -282,6 +298,7 @@
     "areasOfInterest": [
       "Health & Community Outreach",
       "Education & Mentorship",
+      "Digital Literacy Instructor",
       "Communications & Social Media",
       "Finance & Administration",
       "Event Planning & Logistics",
@@ -390,7 +407,7 @@
         "href": "/about"
       },
       {
-        "label": "Programs",
+        "label": "Programmes",
         "href": "/programs"
       },
       {
@@ -410,7 +427,7 @@
         "href": "/about"
       },
       {
-        "label": "Programs",
+        "label": "Programmes",
         "href": "/programs"
       },
       {

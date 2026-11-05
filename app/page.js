@@ -17,7 +17,7 @@ const IMPACT_ICONS = ["users", "hand-heart", "heart-pulse"];
 
 export default function HomePage() {
   const site = getSiteContent();
-  const { hero, impact } = site;
+  const { hero, impact, programs } = site;
   const posts = getAllBlogPosts();
   const latest = posts && posts.length ? posts[0] : null;
   const feedback = getFeedbackContent();
@@ -177,8 +177,10 @@ export default function HomePage() {
         <div className="explore-grid">
           <Link href="/programs" className="explore-card reveal reveal-delay-1">
             <Icon name="school" size={26} />
-            <div className="explore-card-title">Programs</div>
-            <div className="explore-card-desc">What we run, and who it's built for.</div>
+            <div className="explore-card-title">Programmes</div>
+            <div className="explore-card-desc">
+              {[programs.featured, ...programs.cards].map((programme) => programme.title).join(", ")}.
+            </div>
           </Link>
           <Link href="/gallery" className="explore-card reveal reveal-delay-2">
             <Icon name="image" size={26} />
@@ -188,7 +190,7 @@ export default function HomePage() {
           <Link href="/blog" className="explore-card reveal reveal-delay-3">
             <Icon name="book-marked" size={26} />
             <div className="explore-card-title">Blog</div>
-            <div className="explore-card-desc">Weekly updates and program recaps.</div>
+            <div className="explore-card-desc">Weekly updates and programme recaps.</div>
           </Link>
           <Link href="/team" className="explore-card reveal reveal-delay-4">
             <Icon name="users" size={26} />

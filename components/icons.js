@@ -24,7 +24,8 @@ import {
   BookMarked,
   Users,
   HandHeart,
-  Compass
+  Compass,
+  Monitor
 } from "lucide-react";
 
 export const ICONS = {
@@ -53,7 +54,8 @@ export const ICONS = {
   "book-marked": BookMarked,
   users: Users,
   "hand-heart": HandHeart,
-  compass: Compass
+  compass: Compass,
+  monitor: Monitor
 };
 
 export function Icon({ name, size = 20, ...props }) {
